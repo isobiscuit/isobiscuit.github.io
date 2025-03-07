@@ -1,0 +1,80 @@
+/* CSS-Reset: sorgt für konsistente Ausgangswerte in allen Browsern */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basis-Stile für den Body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  #body {
+    padding: 20px;
+  }
+  /* Header & Navigation */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero-Section */
+  #hero {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  /* Allgemeine Sektionen */
+  section {
+    background-color: #fff;
+    padding: 60px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Media Query für kleinere Bildschirme */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    
+    nav ul li {
+      margin: 10px 0;
+    }
+    
+    #hero {
+      padding: 60px 20px;
+    }
+  }
+  
